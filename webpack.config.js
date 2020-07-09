@@ -42,7 +42,7 @@ module.exports = {
     },
     plugins:[
         new HtmlWebPackPlugin({
-            templete: './public/index.html',
+            template: './public/index.html',
             filename: './index.html'
         }),
         new MiniCssExtractPlugin({
